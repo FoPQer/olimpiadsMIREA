@@ -1,0 +1,172 @@
+#MainMenu{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    left: 0;
+    top: 0;
+    padding: 0;
+
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#group4{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 60px;
+    top: 7px;
+
+}
+
+#logo{
+    position: absolute;
+    width: 20%;
+    height: 98%;
+    left: calc(50% - 59px/2 - 45%);
+    top: calc(50% - 75px/2);
+}
+
+#title{
+    position: absolute;
+    width: 207px;
+    height: 38px;
+    left: 149px;
+    top: 21px;
+}
+
+#Priem{
+    position: absolute;
+    width: 207px;
+    height: 17px;
+    left: calc(50% - 207px/2 - 0px);
+    top: calc(50% - 17px/2 - 11px);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 86.8%;
+    /* or 17px */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #242424;
+}
+
+#RTU{
+    position: absolute;
+    width: 102px;
+    height: 17px;
+    left: calc(50% - 102px/2 - 760px);
+    top: calc(50% - 17px/2 + 11px);
+
+
+    /* or 17px */
+
+    display: flex;
+    align-items: center;
+
+    /* black */
+
+    color: #242424;
+}
+
+.buttom{
+    /* buttom */
+
+
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 25px 26px;
+
+    position: static;
+    height: 100%;
+    top: 0;
+
+    /* white */
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 0;
+}
+
+.Text{
+    /* text */
+
+
+    position: static;
+    height: 20px;
+    top: calc(50% - 20px/2);
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* black */
+
+    color: #242424;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 10px;
+}
+
+.Text#cont{
+    width: 94px;
+    left: calc(50% - 94px/2);
+}
+
+.Text#lk{
+    width: 166px;
+    left: calc(50% - 166px/2);
+}
+
+.Text#prk{
+    width: 288px;
+    left: calc(50% - 288px/2);
+}
+
+.buttom#prkb{
+    width: 338px;
+    left: 360px;
+}
+
+.buttom#contb{
+    width: 144px;
+    left: 216px;
+}
+
+.buttom#lkb{
+    width: 216px;
+    left: 0;
+}
+
+#Frame113{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+
+    position: absolute;
+    width: 698px;
+    height: 100%;
+    left: 1222px;
+    top: 0;
+}
