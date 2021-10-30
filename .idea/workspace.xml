@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/Frame14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/almaz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/gerb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/samsung.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Marker.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Marker.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,14 @@
       <workItem from="1635058833802" duration="26714000" />
       <workItem from="1635324475168" duration="4064000" />
     </task>
+    <task id="LOCAL-00001" summary="Патч 0.2">
+      <created>1635591706848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635591706848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,12 +86,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Патч 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 0.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1635342601984">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1635591715447">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1635342601984" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1635591715447" />
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635342575519">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
