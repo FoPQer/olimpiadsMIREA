@@ -1,5 +1,4 @@
 ::marker{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    content: "—";
+    color: #40B8FC;
 }

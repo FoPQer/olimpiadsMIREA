@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Marker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/Rectangle_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/olimpiadsMIREA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/olimpiadsMIREA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/Frame14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/almaz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/gerb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/samsung.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Marker.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Marker.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zwUpwXZaUtjX9uruX5NoKHhPed" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -78,11 +80,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1635342601984">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1635342601984" />
+    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635342575519">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1635342575519" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1635152525517">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
