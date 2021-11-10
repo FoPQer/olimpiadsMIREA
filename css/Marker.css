@@ -1,4 +1,16 @@
-::marker{
-    content: "—";
+li.marker::marker{
+    content: '- ';
     color: #40B8FC;
+    border: #40B8FC;
+}
+
+a.accordion-button::after, .accordion-button:not(.collapsed)::after{
+    background-image: url("../imgs/Frame160.png");
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+a#za.accordion-button::after, #za.accordion-button:not(.collapsed)::after{
+    background-image: url("../imgs/Frame 160g.png");
 }
