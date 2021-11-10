@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Marker.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Marker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Group4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Group5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Group6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Rectangle_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/zacl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/zaoch.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +84,7 @@
       <updated>1635058829979</updated>
       <workItem from="1635058833802" duration="26714000" />
       <workItem from="1635324475168" duration="4064000" />
-      <workItem from="1636480806363" duration="9758000" />
+      <workItem from="1636480806363" duration="11576000" />
     </task>
     <task id="LOCAL-00001" summary="Патч 0.2">
       <created>1635591706848</created>
@@ -102,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636537056378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Патч 0.3">
+      <created>1636539387307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636539387307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,10 +139,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Патч 0.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1636537063242">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1636539390944">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1636537063242" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1636539390944" />
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
