@@ -1,5 +1,5 @@
 li.marker::marker{
-    content: '- ';
+    content: "— ";
     color: #40B8FC;
     border: #40B8FC;
 }
