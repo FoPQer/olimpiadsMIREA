@@ -40,3 +40,7 @@
         padding-right: 5rem!important;
     }
 }
+
+.foot:hover{
+    text-decoration: underline!important;
+}
