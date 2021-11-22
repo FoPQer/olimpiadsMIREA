@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zwUpwXZaUtjX9uruX5NoKHhPed" />
@@ -83,7 +87,9 @@
       <workItem from="1636626634333" duration="4399000" />
       <workItem from="1637164057939" duration="4003000" />
       <workItem from="1637229928529" duration="10084000" />
-      <workItem from="1637524173693" duration="3343000" />
+      <workItem from="1637524173693" duration="4078000" />
+      <workItem from="1637604883442" duration="750000" />
+      <workItem from="1637605928134" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="Патч 0.2">
       <created>1635591706848</created>
@@ -141,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637339377824</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Патч 1.1">
+      <created>1637527671841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637527671841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,17 +180,18 @@
     <MESSAGE value="Патч 0.7" />
     <MESSAGE value="Патч 0.9" />
     <MESSAGE value="Релиз" />
-    <option name="LAST_COMMIT_MESSAGE" value="Релиз" />
+    <MESSAGE value="Патч 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="518" y="250" key="#Web_Browsers" timestamp="1637226824483">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="518" y="250" key="#Web_Browsers/0.0.1440.920@0.0.1440.920" timestamp="1637226824483" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637339384129">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637527676855">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637339384129" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637527676855" />
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
