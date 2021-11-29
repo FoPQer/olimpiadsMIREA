@@ -1,0 +1,29 @@
+.line {
+    border-left: 4px solid #F9B233;
+    position: relative;
+    padding-left: 9px;
+    margin-left: 10px;
+}
+.line::before{
+    content: url("../imgs/dot.png");
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -12px;
+    top: 13px;
+}
+
+.ulLine{
+    margin-top: 2rem;
+    border-radius: 12px;
+    position: relative;
+    list-style: none;
+}
+
+.t{
+    height: 30px;
+}
+
+.b{
+    height: 60px;
+}

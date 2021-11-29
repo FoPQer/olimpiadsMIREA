@@ -7,45 +7,43 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/Marker.css" rel="stylesheet">
     <link href="css/Main.css" rel="stylesheet">
+    <link href="css/Timeline.css" rel="stylesheet">
     <title>Многопрофильная олимпиада РТУ МИРЭА</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <div class="container-fluid">
+    <div class="container-fluid position-fixed" style="z-index: 5">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
                 <div class="navbar-collapse d-flex justify-content-between"
                      id="navbarSupportedContent">
                     <div class="d-flex col-lg-6 col-10 py-3" style="margin-left: 3%">
                         <div class="me-2">
-                            <img id="logo" src="imgs/logo.png" alt="logo" style="width: 59px; height: 65px">
+                            <img id="logo" src="imgs/logo.png" alt="logo">
                         </div>
                         <div id="RTU" style="margin-left: 4%">
-                            <span class="pr-k" style="text-transform: uppercase; font-weight: bold">
+                            <strong class="pr-k text-uppercase">
                                 Приёмная комиссия
-                            </span>
+                            </strong>
                             <span class="xxs d-block">МИРЭА &mdash; Российский технологический университет</span>
                         </div>
                     </div>
                     <div class="d-none d-lg-block">
                         <ul class="navbar-nav">
                             <li class="nav-item me-4">
-                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black text-decoration-none">
                                     Личный кабинет
                                 </a>
                             </li>
                             <li class="nav-item me-4">
-                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black text-decoration-none">
                                     Контакты
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black"
-                                   style="text-decoration: none">
+                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black text-decoration-none">
                                     На сайт Приёмной комиссии
                                 </a>
                             </li>
@@ -80,7 +78,7 @@
                                     </li>
                                 </ul>
                                 <footer style="background-color: lightgray" class="container-fluid pt-2">
-                                    <ul style="list-style-type: none" class="mt-2 px-0">
+                                    <ul style="list-style-type: none" class="pt-2 px-0">
                                         <li class="py-2">© 2021 Приёмная комиссия РТУ МИРЭА</li>
                                         <li class="py-2">
                                             <a class="text-black foot text-decoration-none" href="https://minobrnauki.gov.ru/" target="_blank">
@@ -157,6 +155,7 @@
             </nav>
         </div>
     </div>
+    <div class="pt-6r"></div>
     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="d-none d-lg-block">
         <div class="d-flex justify-content-between">
             <ol class="breadcrumb m-0 py-xl-2" style="padding-left: 3rem">
@@ -166,49 +165,48 @@
                 <li class="breadcrumb-item active" aria-current="page">Многопрофильная олимпиада РТУ МИРЭА для учащихся
                     9, 10 и 11 классов</li>
             </ol>
-            <div>
-                <button style="height: 100%" class="border-0 button btn-info">
-                    <a href="https://priem.mirea.ru/olympiads" target="_blank" style="color: #FFFFFF; text-decoration: none">
-                        Вернуться в Гид по олимпиадам</a></button>
+            <div class="bg-info d-flex align-items-center text-center">
+                <a class="text-decoration-none px-2 text-white" href="https://priem.mirea.ru/olympiads" target="_blank">
+                    Вернуться в Гид по олимпиадам
+                </a>
             </div>
         </div>
     </nav>
-    <div class="container-fluid d-flex justify-content-center align-items-center" style="width: auto; height: 400px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/olimpiady_1.png); background-size: cover; background-position: center;">
-        <strong class="fs-1 col-lg-7 col-sm-10 col-12 text-center" style="color: #FFFFFF; line-height: 100%;">
+    <div class="container-fluid d-flex justify-content-center align-items-center w-auto" style="height: 400px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/olimpiady_1.png); background-size: cover; background-position: center;">
+        <strong class="fs-1 col-lg-7 col-sm-10 col-12 text-center text-white" style="line-height: 100%;">
             Многопрофильная олимпиада РТУ МИРЭА для учащихся 9, 10 и 11 классов
         </strong>
     </div>
     <div class="container my-5">
         <div class="row">
             <div class="col-6 col-md-3 text-center">
-                <img style="width: 100px; height: 100px" src="imgs/math.png" class="card-img-top" alt="Математика">
+                <img src="imgs/math.png" alt="Математика">
                 <p class="mt-2 fs-5">Математика</p>
             </div>
             <div class="col-6 col-md-3 text-center">
-                <img style="width: 100px; height: 100px" src="imgs/chem.png" class="card-img-top" alt="Химия">
+                <img src="imgs/chem.png" alt="Химия">
                 <p class="mt-2 fs-5">Химия</p>
             </div>
             <div class="col-6 col-md-3 text-center">
-                <img style="width: 100px; height: 100px" src="imgs/phis.png" class="card-img-top" alt="Физика">
+                <img src="imgs/phis.png" alt="Физика">
                 <p class="mt-2 fs-5">Физика</p>
             </div>
             <div class="col-6 col-md-3 text-center">
-                <img style="width: 100px; height: 100px" src="imgs/inf.png" class="card-img-top" alt="Информатика">
+                <img src="imgs/inf.png" alt="Информатика">
                 <p class="mt-2 fs-5">Информатика</p>
             </div>
         </div>
     </div>
     <div class="text-center mb-5">
-        <a style="padding: 1rem 2rem; font-size: 18pt; color: #FFFFFF; text-decoration: none"
-           href="https://priem.mirea.ru/lk/olymp" target="_blank" class="btn-info text-center">
+        <a style="padding: 1rem 2rem" class="btn-info text-center text-decoration-none text-white fs-2"
+           href="https://priem.mirea.ru/lk/olymp" target="_blank">
             Регистрация
         </a>
     </div>
     <div>
-        <h1 class="mb-5" style="text-transform: uppercase; text-align: center"><strong>Календарь олимпиад</strong></h1>
-        <a class="accordion-button d-flex py-4 mb-1 collapsed pb" data-bs-toggle="collapse" data-bs-target="#zaoch"
-           aria-expanded="true" aria-controls="collapseExample"  href="#"
-           style="text-decoration: none; background-color: #FFCC00;">
+        <h1 class="pb-5 text-uppercase text-center fw-bold">Календарь олимпиад</h1>
+        <a class="accordion-button d-flex py-4 mb-1 collapsed pb text-decoration-none" data-bs-toggle="collapse" data-bs-target="#zaoch"
+           aria-expanded="true" aria-controls="collapseExample" href="#" style="background-color: #FFCC00;">
             <div class="container-md">
                 <strong class="fs-2 text-white">Заочный отборочный этап</strong>
             </div>
@@ -228,38 +226,48 @@
                         </span>
                     </li>
                 </ul>
-                <h5 style="text-align: center" class="mb-3"><strong>Таймлайн заочного отборочного этапа</strong></h5>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Этап</th>
-                            <th>Дата</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Приём решений</td>
-                            <td style="color: #FFCC00; font-weight: bold">До 31 января 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Публикация результатов</td>
-                            <td style="color: #FFCC00; font-weight: bold">До 15 февраля 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Аппеляция результатов отборочного этапа (заочно)</td>
-                            <td style="color: #FFCC00; font-weight: bold">До 17 февраля 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Публикация на странице Олимпиады списков призёров и победителей</td>
-                            <td style="color: #FFCC00; font-weight: bold">До 27 февраля 2022</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h5 class="pb-3 text-center"><strong>Таймлайн заочного отборочного этапа</strong></h5>
+            </div>
+            <div class="container">
+                <ul class="ulLine">
+                    <li class="line row">
+                        <div class="col-2 t" style="border-bottom: 1px solid #40B8FC">
+                        </div>
+                        <div class="col-10 mb-5 b" style="border-left: 1px solid #40B8FC">
+                            <span class="d-block">Приём решений</span>
+                            <strong class="d-block" style="color: #FFCC00">До 31 января 2022</strong>
+                        </div>
+                    </li>
+                    <li class="line row">
+                        <div class="col-2 t" style="border-bottom: 1px solid #40B8FC">
+                        </div>
+                        <div class="col-10 mb-5 b" style="border-left: 1px solid #40B8FC">
+                            <span class="d-block">Публикация результатов</span>
+                            <strong class="d-block" style="color: #FFCC00">До 15 февраля 2022 </strong>
+                        </div>
+                    </li>
+                    <li class="line row">
+                        <div class="col-2 t" style="border-bottom: 1px solid #40B8FC">
+                        </div>
+                        <div class="col-10 mb-5 b" style="border-left: 1px solid #40B8FC">
+                            <span class="d-block">Апелляция результатов отборочного этапа (заочно)</span>
+                            <strong class="d-block" style="color: #FFCC00">До 17 февраля 2022 </strong>
+                        </div>
+                    </li>
+                    <li class="line row">
+                        <div class="col-2 t" style="border-bottom: 1px solid #40B8FC; height: 25px">
+                        </div>
+                        <div class="col-10 b" style="border-left: 1px solid #40B8FC; height: 50px">
+                            <span class="d-block">Публикация на странице Олимпиады списков призёров и победителей</span>
+                            <strong class="d-block" style="color: #FFCC00">До 27 февраля 2022</strong>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <a class="accordion-button d-flex py-4 mb-5 collapsed pb" id="za" data-bs-toggle="collapse" data-bs-target="#zacl"
-           aria-expanded="true" aria-controls="collapseExample" href="#"
-           style="text-decoration: none; background-color: #40B8FC;">
+        <a class="accordion-button d-flex py-4 mb-5 collapsed pb text-decoration-none" id="za" data-bs-toggle="collapse"
+           data-bs-target="#zacl" aria-expanded="true" aria-controls="collapseExample" href="#"
+           style="background-color: #40B8FC;">
             <div class="container-md">
                 <strong class="fs-2 text-white">Заключительный этап</strong>
             </div>
@@ -281,7 +289,7 @@
                         </ul>
                     </li>
                 </ul>
-                <h5 style="text-align: center" class="mb-3"><strong>Таймлайн заключительного этапа</strong></h5>
+                <h5 class="pb-3 text-center"><strong>Таймлайн заключительного этапа</strong></h5>
                 <table class="table">
                     <thead>
                     <tr>
@@ -292,23 +300,23 @@
                     <tbody>
                     <tr>
                         <td>Заключительный этап</td>
-                        <td style="color: #40B8FC; font-weight: bold">27 марта 2022</td>
+                        <td class="zacl">27 марта 2022</td>
                     </tr>
                     <tr>
                         <td>Публикация результатов</td>
-                        <td style="color: #40B8FC; font-weight: bold">До 5 апреля 2022</td>
+                        <td class="zacl">До 5 апреля 2022</td>
                     </tr>
                     <tr>
                         <td>Аппеляция результатов отборочного этапа (заочно)</td>
-                        <td style="color: #40B8FC; font-weight: bold">До 7 апреля 2022</td>
+                        <td class="zacl">До 7 апреля 2022</td>
                     </tr>
                     <tr>
                         <td>Публикация списков призёров и победителей заключительного этапа</td>
-                        <td style="color: #40B8FC; font-weight: bold">До 15 апреля 2022</td>
+                        <td class="zacl">До 15 апреля 2022</td>
                     </tr>
                     <tr>
                         <td>Торжественное награждение призёров и победителей</td>
-                        <td style="color: #40B8FC; font-weight: bold">До 31 мая 2022</td>
+                        <td class="zacl">До 31 мая 2022</td>
                     </tr>
                     </tbody>
                 </table>
@@ -318,15 +326,10 @@
     <div class="container-fluid mb-5">
         <div class="row mb-2">
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #9B51E0">
-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>Об Олимпиаде</strong></ins>
+                <ins class="text-uppercase text-center py-4 fs-1 text-white"><strong>Об Олимпиаде</strong></ins>
             </div>
-            <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
-                style="height: 200px; background: url(imgs/MaskGroup4.png); background-position: center">
-                <a href="https://priem.mirea.ru/olymp-2022/?module=about" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #9B51E0; color: white;">Узнать больше</a>
-            </div>
-            <div class="col-md-6 d-flex d-md-none justify-content-center align-items-center"
-                 style="height: 100px; background: url(imgs/MaskGroup4.png); background-position: center">
+            <div class="col-md-6 d-flex justify-content-center align-items-center lm"
+                style="background: url(imgs/MaskGroup4.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=about" target="_blank"
                    class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #9B51E0">Узнать больше</a>
             </div>
@@ -335,15 +338,8 @@
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #27AE60;">
                 <ins class="text-uppercase text-center py-4 fs-1 text-white fw-bold">Задания прошлых лет</ins>
             </div>
-            <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
-                style="height: 200px; background: url(imgs/MaskGroup5.png); background-position: center">
-                <a href="https://priem.mirea.ru/olymp-2022/?module=old_tasks" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #27AE60;">
-                    Узнать больше
-                </a>
-            </div>
-            <div class="col-md-6 d-md-none d-flex justify-content-center align-items-center"
-                 style="height: 100px; background: url(imgs/MaskGroup5.png); background-position: center">
+            <div class="col-md-6 d-flex justify-content-center align-items-center lm"
+                style="background: url(imgs/MaskGroup5.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=old_tasks" target="_blank"
                    class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #27AE60;">
                     Узнать больше
@@ -352,19 +348,14 @@
         </div>
         <div class="row mb-2">
             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #FFCC00;">
-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>Результаты</strong></ins>
+                <ins class="text-uppercase text-center py-4 fs-1 text-white fw-bold">Результаты</ins>
             </div>
-            <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
-                style="height: 200px; background: url(imgs/MaskGroup6.png); background-position: center">
+            <div class="col-md-6 d-flex justify-content-center align-items-center lm"
+                style="background: url(imgs/MaskGroup6.png); background-position: center">
                 <a href="https://priem.mirea.ru/olymp-2022/?module=results" target="_blank"
                    class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #FFCC00">
                     Узнать больше
                 </a>
-            </div>
-            <div class="col-md-6 d-md-none d-flex justify-content-center align-items-center"
-                 style="height: 100px; background: url(imgs/MaskGroup6.png); background-position: center">
-                <a href="https://priem.mirea.ru/olymp-2022/?module=results" target="_blank"
-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #FFCC00; color: white;">Узнать больше</a>
             </div>
         </div>
     </div>

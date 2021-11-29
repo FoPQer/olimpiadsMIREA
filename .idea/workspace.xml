@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/Timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/timeBlue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -89,7 +95,12 @@
       <workItem from="1637229928529" duration="10084000" />
       <workItem from="1637524173693" duration="4078000" />
       <workItem from="1637604883442" duration="750000" />
-      <workItem from="1637605928134" duration="329000" />
+      <workItem from="1637605928134" duration="382000" />
+      <workItem from="1637672705893" duration="876000" />
+      <workItem from="1637675745846" duration="143000" />
+      <workItem from="1637675904955" duration="3146000" />
+      <workItem from="1637771472506" duration="5136000" />
+      <workItem from="1637843948675" duration="12881000" />
     </task>
     <task id="LOCAL-00001" summary="Патч 0.2">
       <created>1635591706848</created>
@@ -154,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637527671841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Патч 1.2">
+      <created>1637606293323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637606293323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,21 +199,26 @@
     <MESSAGE value="Патч 0.9" />
     <MESSAGE value="Релиз" />
     <MESSAGE value="Патч 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.1" />
+    <MESSAGE value="Патч 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="518" y="250" key="#Web_Browsers" timestamp="1637226824483">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="518" y="250" key="#Web_Browsers/0.0.1440.920@0.0.1440.920" timestamp="1637226824483" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637527676855">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637606302347">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637527676855" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637606302347" />
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1635852013614" />
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1637771518348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637771518348" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1635152525517">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
