@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/Timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/timeBlue.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Timeline.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zwUpwXZaUtjX9uruX5NoKHhPed" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -97,56 +95,7 @@
       <option name="project" value="LOCAL" />
       <updated>1635591706848</updated>
     </task>
-    <task id="LOCAL-00002" summary="Патч 0.2">
-      <created>1635599019775</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1635599019776</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Патч 0.3">
-      <created>1636537056378</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1636537056378</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Патч 0.3">
-      <created>1636539387307</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1636539387307</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Патч 0.4">
-      <created>1636541170430</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1636541170430</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Патч 0.7">
-      <created>1636707354756</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1636707354756</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Патч 0.9">
-      <created>1637165927937</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1637165927937</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Релиз">
-      <created>1637339377824</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1637339377824</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,26 +116,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Патч 0.2" />
-    <MESSAGE value="Патч 0.3" />
-    <MESSAGE value="Патч 0.4" />
-    <MESSAGE value="Патч 0.7" />
-    <MESSAGE value="Патч 0.9" />
-    <MESSAGE value="Релиз" />
-    <option name="LAST_COMMIT_MESSAGE" value="Релиз" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 0.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="250" key="#Web_Browsers" timestamp="1637226824483">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1635591715447">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="518" y="250" key="#Web_Browsers/0.0.1440.920@0.0.1440.920" timestamp="1637226824483" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637339384129">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1635591715447" />
+    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635342575519">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637339384129" />
-    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1635852013614" />
+    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1635342575519" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1635152525517">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
