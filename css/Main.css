@@ -9,6 +9,10 @@
     padding-right: 0.5rem!important;
 }
 
+.lm{
+    height: 100px;
+}
+
 @media (min-width: 350px) {
     .xxs {
         font-size: 0.9rem!important;
@@ -32,6 +36,9 @@
         padding-left: 3rem!important;
         padding-right: 3rem!important;
     }
+    .lm{
+        height: 200px!important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -41,6 +48,20 @@
     }
 }
 
+.pt-6r{
+    padding-top: 6rem!important;
+}
+
 .foot:hover{
     text-decoration: underline!important;
+}
+
+.otb{
+    color: #FFCC00!important;
+    font-weight: bold!important;
+}
+
+.zacl{
+    color: #40B8FC!important;
+    font-weight: bold!important;
 }

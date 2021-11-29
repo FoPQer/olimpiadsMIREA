@@ -1,0 +1,351 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\r\n    <link href=\"css/Marker.css\" rel=\"stylesheet\">\r\n    <link href=\"css/Main.css\" rel=\"stylesheet\">\r\n    <title>Многопрофильная олимпиада РТУ МИРЭА</title>\r\n</head>\r\n<body>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"\r\n        integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\"\r\n        crossorigin=\"anonymous\"></script>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <nav class=\"navbar navbar-expand-lg navbar-light bg-light\" style=\"padding: 0\">\r\n                <div class=\"navbar-collapse d-flex justify-content-between\"\r\n                     id=\"navbarSupportedContent\">\r\n                    <div class=\"d-flex col-lg-6 col-10 py-3\" style=\"margin-left: 3%\">\r\n                        <div class=\"me-2\">\r\n                            <img id=\"logo\" src=\"imgs/logo.png\" alt=\"logo\" style=\"width: 59px; height: 65px\">\r\n                        </div>\r\n                        <div id=\"RTU\" style=\"margin-left: 4%\">\r\n                            <span class=\"pr-k\" style=\"text-transform: uppercase; font-weight: bold\">\r\n                                Приёмная комиссия\r\n                            </span>\r\n                            <span class=\"xxs d-block\">МИРЭА &mdash; Российский технологический университет</span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"d-none d-lg-block\">\r\n                        <ul class=\"navbar-nav\">\r\n                            <li class=\"nav-item me-4\">\r\n                                <a href=\"https://priem.mirea.ru/lk\" target=\"_blank\" class=\"text-black\"\r\n                                   style=\"text-decoration: none\">\r\n                                    Личный кабинет\r\n                                </a>\r\n                            </li>\r\n                            <li class=\"nav-item me-4\">\r\n                                <a href=\"https://priem.mirea.ru/contacts\" target=\"_blank\" class=\"text-black\"\r\n                                   style=\"text-decoration: none\">\r\n                                    Контакты\r\n                                </a>\r\n                            </li>\r\n                            <li class=\"nav-item\">\r\n                                <a href=\"https://priem.mirea.ru/\" target=\"_blank\" class=\"text-black\"\r\n                                   style=\"text-decoration: none\">\r\n                                    На сайт Приёмной комиссии\r\n                                </a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                    <div class=\"d-lg-none\">\r\n                        <a class=\"btn-light pe-3\" href=\"#\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasRight\"\r\n                           aria-controls=\"offcanvasRight\"><img src=\"imgs/Frame14.png\" alt=\"Frame\"></a>\r\n                        <div class=\"offcanvas offcanvas-end\" tabindex=\"-1\" id=\"offcanvasRight\"\r\n                             aria-labelledby=\"offcanvasRightLabel\">\r\n                            <div class=\"offcanvas-header\">\r\n                                <h5 id=\"offcanvasRightLabel\">Меню</h5>\r\n                                <button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\"\r\n                                        aria-label=\"Close\"></button>\r\n                            </div>\r\n                            <div class=\"offcanvas-body p-0\">\r\n                                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\r\n                                    <li class=\"nav-item px-3 py-2\">\r\n                                        <a href=\"https://priem.mirea.ru/lk\" target=\"_blank\" class=\"text-black foot text-decoration-none\">\r\n                                            Личный кабинет\r\n                                        </a>\r\n                                    </li>\r\n                                    <li class=\"nav-item px-3 py-2\">\r\n                                        <a href=\"https://priem.mirea.ru/contacts\" target=\"_blank\" class=\"text-black foot text-decoration-none\">\r\n                                            Контакты\r\n                                        </a>\r\n                                    </li>\r\n                                    <li class=\"nav-item px-3 py-2\">\r\n                                        <a href=\"https://priem.mirea.ru/\" target=\"_blank\" class=\"text-black foot text-decoration-none\">\r\n                                            На сайт Приёмной комиссии\r\n                                        </a>\r\n                                    </li>\r\n                                </ul>\r\n                                <footer style=\"background-color: lightgray\" class=\"container-fluid pt-2\">\r\n                                    <ul style=\"list-style-type: none\" class=\"mt-2 px-0\">\r\n                                        <li class=\"py-2\">© 2021 Приёмная комиссия РТУ МИРЭА</li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://minobrnauki.gov.ru/\" target=\"_blank\">\r\n                                                Минобрнауки России\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"http://www.obrnadzor.gov.ru/\" target=\"_blank\">\r\n                                                Рособрнадзор\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://www.mirea.ru/\" target=\"_blank\">\r\n                                                Главный сайт университета\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">Школьникам</li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/branches/stavropol/first-degree\" target=\"_blank\">\r\n                                                Филиал в г. Ставрополь\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/branches/fryazino/first-degree#\" target=\"_blank\">\r\n                                                Филиал в г. Фрязино\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/spo/info\" target=\"_blank\">\r\n                                                Колледж\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/first-degree/info\" target=\"_blank\">\r\n                                                Бакалавриат и специалитет\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/magistracy/info\" target=\"_blank\">\r\n                                                Магистратура\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/phd/info\" target=\"_blank\">\r\n                                                Аспирантура\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/transfer-restoration/info\" target=\"_blank\">\r\n                                                Перевод и восстановление\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/contacts\" target=\"_blank\">\r\n                                                Контакты\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/lk\" target=\"_blank\">\r\n                                                Личный кабинет абитуриента\r\n                                            </a>\r\n                                        </li>\r\n                                        <li class=\"py-2\">\r\n                                            <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/school\" target=\"_blank\">\r\n                                                Личный кабинет школы\r\n                                            </a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </footer>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </nav>\r\n        </div>\r\n    </div>\r\n    <nav style=\"--bs-breadcrumb-divider: '>'\" aria-label=\"breadcrumb\" class=\"d-none d-lg-block\">\r\n        <div class=\"d-flex justify-content-between\">\r\n            <ol class=\"breadcrumb m-0 py-xl-2\" style=\"padding-left: 3rem\">\r\n                <li class=\"breadcrumb-item\"><a href=\"https://priem.mirea.ru/\" class=\"text-decoration-none text-info\">Приёмная комиссия</a></li>\r\n                <li class=\"breadcrumb-item\"><a href=\"#\" class=\"text-decoration-none text-info\">Школьникам</a></li>\r\n                <li class=\"breadcrumb-item\"><a href=\"https://priem.mirea.ru/olympiads\" class=\"text-decoration-none text-info\">Олимпиады</a></li>\r\n                <li class=\"breadcrumb-item active\" aria-current=\"page\">Многопрофильная олимпиада РТУ МИРЭА для учащихся\r\n                    9, 10 и 11 классов</li>\r\n            </ol>\r\n            <div>\r\n                <button style=\"height: 100%\" class=\"border-0 button btn-info\">\r\n                    <a href=\"https://priem.mirea.ru/olympiads\" target=\"_blank\" style=\"color: #FFFFFF; text-decoration: none\">\r\n                        Вернуться в Гид по олимпиадам</a></button>\r\n            </div>\r\n        </div>\r\n    </nav>\r\n    <div class=\"container-fluid d-flex justify-content-center align-items-center\" style=\"width: auto; height: 400px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/olimpiady_1.png); background-size: cover; background-position: center;\">\r\n        <strong class=\"fs-1 col-lg-7 col-sm-10 col-12 text-center\" style=\"color: #FFFFFF; line-height: 100%;\">\r\n            Многопрофильная олимпиада РТУ МИРЭА для учащихся 9, 10 и 11 классов\r\n        </strong>\r\n    </div>\r\n    <div class=\"container my-5\">\r\n        <div class=\"row\">\r\n            <div class=\"col-6 col-md-3 text-center\">\r\n                <img style=\"width: 100px; height: 100px\" src=\"imgs/math.png\" class=\"card-img-top\" alt=\"Математика\">\r\n                <p class=\"mt-2 fs-5\">Математика</p>\r\n            </div>\r\n            <div class=\"col-6 col-md-3 text-center\">\r\n                <img style=\"width: 100px; height: 100px\" src=\"imgs/chem.png\" class=\"card-img-top\" alt=\"Химия\">\r\n                <p class=\"mt-2 fs-5\">Химия</p>\r\n            </div>\r\n            <div class=\"col-6 col-md-3 text-center\">\r\n                <img style=\"width: 100px; height: 100px\" src=\"imgs/phis.png\" class=\"card-img-top\" alt=\"Физика\">\r\n                <p class=\"mt-2 fs-5\">Физика</p>\r\n            </div>\r\n            <div class=\"col-6 col-md-3 text-center\">\r\n                <img style=\"width: 100px; height: 100px\" src=\"imgs/inf.png\" class=\"card-img-top\" alt=\"Информатика\">\r\n                <p class=\"mt-2 fs-5\">Информатика</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"text-center mb-5\">\r\n        <a style=\"padding: 1rem 2rem; font-size: 18pt; color: #FFFFFF; text-decoration: none\"\r\n           href=\"https://priem.mirea.ru/lk/olymp\" target=\"_blank\" class=\"btn-info text-center\">\r\n            Регистрация\r\n        </a>\r\n    </div>\r\n    <div>\r\n        <h1 class=\"mb-5\" style=\"text-transform: uppercase; text-align: center\"><strong>Календарь олимпиад</strong></h1>\r\n        <a class=\"accordion-button d-flex py-4 mb-1 collapsed pb\" data-bs-toggle=\"collapse\" data-bs-target=\"#zaoch\"\r\n           aria-expanded=\"true\" aria-controls=\"collapseExample\"  href=\"#\"\r\n           style=\"text-decoration: none; background-color: #FFCC00;\">\r\n            <div class=\"container-md\">\r\n                <strong class=\"fs-2 text-white\">Заочный отборочный этап</strong>\r\n            </div>\r\n        </a>\r\n        <div class=\"collapse\" id=\"zaoch\">\r\n            <div class=\"card card-body border-0 container-md mt-5\">\r\n                <strong class=\"text-warning\">Для участия необходимо:</strong>\r\n                <ul>\r\n                    <li class=\"marker\"><span class=\"text-black\"><a href=\"https://priem.mirea.ru/lk/olymp\" target=\"_blank\">\r\n                        Зарегистрироваться</a>(Создать личный кабинет)</span></li>\r\n                    <li class=\"marker\"><span class=\"text-black\">Скачать задания и бланки</span></li>\r\n                    <li class=\"marker\"><span class=\"text-black\">Решить задания</span></li>\r\n                    <li class=\"marker\"><span class=\"text-black\">Написать решения на распечатанных бланках</span></li>\r\n                    <li class=\"marker\">\r\n                        <span class=\"text-black\">\r\n                            Отсканировать свои решения, загрузить их в Личный кабинет\r\n                        </span>\r\n                    </li>\r\n                </ul>\r\n                <h5 style=\"text-align: center\" class=\"mb-3\"><strong>Таймлайн заочного отборочного этапа</strong></h5>\r\n                <table class=\"table\">\r\n                    <thead>\r\n                        <tr>\r\n                            <th>Этап</th>\r\n                            <th>Дата</th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr>\r\n                            <td>Приём решений</td>\r\n                            <td style=\"color: #FFCC00; font-weight: bold\">До 31 января 2022</td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td>Публикация результатов</td>\r\n                            <td style=\"color: #FFCC00; font-weight: bold\">До 15 февраля 2022</td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td>Аппеляция результатов отборочного этапа (заочно)</td>\r\n                            <td style=\"color: #FFCC00; font-weight: bold\">До 17 февраля 2022</td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td>Публикация на странице Олимпиады списков призёров и победителей</td>\r\n                            <td style=\"color: #FFCC00; font-weight: bold\">До 27 февраля 2022</td>\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n        <a class=\"accordion-button d-flex py-4 mb-5 collapsed pb\" id=\"za\" data-bs-toggle=\"collapse\" data-bs-target=\"#zacl\"\r\n           aria-expanded=\"true\" aria-controls=\"collapseExample\" href=\"#\"\r\n           style=\"text-decoration: none; background-color: #40B8FC;\">\r\n            <div class=\"container-md\">\r\n                <strong class=\"fs-2 text-white\">Заключительный этап</strong>\r\n            </div>\r\n        </a>\r\n        <div class=\"collapse\" id=\"zacl\">\r\n            <div class=\"card card-body border-0 container-md\">\r\n                <b class=\"text-warning\">Для участия необходимо:</b>\r\n                <ul>\r\n                    <li class=\"marker\">Стать победителем или призёром отборочного этапа</li>\r\n                    <li class=\"marker\">Приехать по адресу г.Москва, проспект Вернадского, 86</li>\r\n                    <li class=\"marker\"> С собой необходмо иметь следующие документы:\r\n                        <ul class=\"text-warning\" style=\"list-style-type: disc\">\r\n                            <li><span class=\"text-black\">Паспорт</span></li>\r\n                            <li><span class=\"text-black\"><a href=\"https://priem.mirea.ru/olymp/docs/agreement_before_18.pdf\">\r\n                                Бланк согласия для участников, не достигших 18 лет, подписанный родителями</a> или\r\n                                <a href=\"https://priem.mirea.ru/olymp/docs/agreement_18_older.pdf\">бланк согласия для\r\n                                    участников, достигших 18 лет, подписанный лично</a></span></li>\r\n                            <li><span class=\"text-black\">Справку из образовательного учереждения</span></li>\r\n                        </ul>\r\n                    </li>\r\n                </ul>\r\n                <h5 style=\"text-align: center\" class=\"mb-3\"><strong>Таймлайн заключительного этапа</strong></h5>\r\n                <table class=\"table\">\r\n                    <thead>\r\n                    <tr>\r\n                        <th>Этап</th>\r\n                        <th>Дата</th>\r\n                    </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                    <tr>\r\n                        <td>Заключительный этап</td>\r\n                        <td style=\"color: #40B8FC; font-weight: bold\">27 марта 2022</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>Публикация результатов</td>\r\n                        <td style=\"color: #40B8FC; font-weight: bold\">До 5 апреля 2022</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>Аппеляция результатов отборочного этапа (заочно)</td>\r\n                        <td style=\"color: #40B8FC; font-weight: bold\">До 7 апреля 2022</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>Публикация списков призёров и победителей заключительного этапа</td>\r\n                        <td style=\"color: #40B8FC; font-weight: bold\">До 15 апреля 2022</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>Торжественное награждение призёров и победителей</td>\r\n                        <td style=\"color: #40B8FC; font-weight: bold\">До 31 мая 2022</td>\r\n                    </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid mb-5\">\r\n        <div class=\"row mb-2\">\r\n            <div class=\"col-md-6 d-flex align-items-center justify-content-center\" style=\"background-color: #9B51E0\">\r\n                <ins class=\"text-uppercase text-center py-4 fs-1\" style=\"color: white;\"><strong>Об Олимпиаде</strong></ins>\r\n            </div>\r\n            <div class=\"col-md-6 d-none d-md-flex justify-content-center align-items-center\"\r\n                style=\"height: 200px; background: url(imgs/MaskGroup4.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=about\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none\" style=\"background-color: #9B51E0; color: white;\">Узнать больше</a>\r\n            </div>\r\n            <div class=\"col-md-6 d-flex d-md-none justify-content-center align-items-center\"\r\n                 style=\"height: 100px; background: url(imgs/MaskGroup4.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=about\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none text-white\" style=\"background-color: #9B51E0\">Узнать больше</a>\r\n            </div>\r\n        </div>\r\n        <div class=\"row mb-2\">\r\n            <div class=\"col-md-6 d-flex align-items-center justify-content-center\" style=\"background-color: #27AE60;\">\r\n                <ins class=\"text-uppercase text-center py-4 fs-1 text-white fw-bold\">Задания прошлых лет</ins>\r\n            </div>\r\n            <div class=\"col-md-6 d-none d-md-flex justify-content-center align-items-center\"\r\n                style=\"height: 200px; background: url(imgs/MaskGroup5.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=old_tasks\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none text-white\" style=\"background-color: #27AE60;\">\r\n                    Узнать больше\r\n                </a>\r\n            </div>\r\n            <div class=\"col-md-6 d-md-none d-flex justify-content-center align-items-center\"\r\n                 style=\"height: 100px; background: url(imgs/MaskGroup5.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=old_tasks\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none text-white\" style=\"background-color: #27AE60;\">\r\n                    Узнать больше\r\n                </a>\r\n            </div>\r\n        </div>\r\n        <div class=\"row mb-2\">\r\n            <div class=\"col-md-6 d-flex align-items-center justify-content-center\" style=\"background-color: #FFCC00;\">\r\n                <ins class=\"text-uppercase text-center py-4 fs-1\" style=\"color: white;\"><strong>Результаты</strong></ins>\r\n            </div>\r\n            <div class=\"col-md-6 d-none d-md-flex justify-content-center align-items-center\"\r\n                style=\"height: 200px; background: url(imgs/MaskGroup6.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=results\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none text-white\" style=\"background-color: #FFCC00\">\r\n                    Узнать больше\r\n                </a>\r\n            </div>\r\n            <div class=\"col-md-6 d-md-none d-flex justify-content-center align-items-center\"\r\n                 style=\"height: 100px; background: url(imgs/MaskGroup6.png); background-position: center\">\r\n                <a href=\"https://priem.mirea.ru/olymp-2022/?module=results\" target=\"_blank\"\r\n                   class=\"fs-5 px-4 py-3 text-decoration-none\" style=\"background-color: #FFCC00; color: white;\">Узнать больше</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"mb-5\">\r\n        <div class=\"text-center\">\r\n            <h1>Организаторы</h1>\r\n        </div>\r\n        <div>\r\n            <div class=\"container\">\r\n                <div class=\"row justify-content-center\">\r\n                    <div class=\"col-md-6 col-lg-4 text-center\">\r\n                        <img class=\"img-fluid\" src=\"imgs/gerb.png\" alt=\"logo\">\r\n                    </div>\r\n                    <div class=\"col-md-6 col-lg-4 text-center\">\r\n                        <img class=\"img-fluid\" src=\"imgs/almaz.png\" alt=\"almaz\">\r\n                    </div>\r\n                    <div class=\"col-md-6 col-lg-4 text-center\">\r\n                        <img class=\"img-fluid\" src=\"imgs/samsung.png\" alt=\"samsung\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <footer style=\"background-color: lightgray\" class=\"container-fluid d-none d-lg-block\">\r\n        <div class=\"d-flex justify-content-between\" style=\"padding-left: 3%\">\r\n            <ul style=\"list-style-type: none\" class=\"mt-5 container\">\r\n                <li class=\"py-2\">© 2021 Приёмная комиссия РТУ МИРЭА</li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://minobrnauki.gov.ru/\" target=\"_blank\">\r\n                        Минобрнауки России\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"http://www.obrnadzor.gov.ru/\" target=\"_blank\">\r\n                        Рособрнадзор\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://www.mirea.ru/\" target=\"_blank\">\r\n                        Главный сайт университета\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">Школьникам</li>\r\n            </ul>\r\n            <ul style=\"list-style-type: none\" class=\"mt-5 container\">\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/branches/stavropol/first-degree\"\r\n                       target=\"_blank\">\r\n                        Филиал в г. Ставрополь\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/branches/fryazino/first-degree#\"\r\n                       target=\"_blank\">\r\n                        Филиал в г. Фрязино\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/spo/info\" target=\"_blank\">\r\n                        Колледж\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/first-degree/info\"\r\n                       target=\"_blank\">\r\n                        Бакалавриат и специалитет\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/magistracy/info\"\r\n                       target=\"_blank\">\r\n                        Магистратура\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n            <ul style=\"list-style-type: none\" class=\"mt-5 container\">\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/phd/info\" target=\"_blank\">\r\n                        Аспирантура\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/transfer-restoration/info\"\r\n                       target=\"_blank\">\r\n                        Перевод и восстановление\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/contacts\" target=\"_blank\">\r\n                        Контакты\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/lk\" target=\"_blank\">\r\n                        Личный кабинет абитуриента\r\n                    </a>\r\n                </li>\r\n                <li class=\"py-2\">\r\n                    <a class=\"text-black foot text-decoration-none\" href=\"https://priem.mirea.ru/school\" target=\"_blank\">\r\n                        Личный кабинет школы\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 469e61d141791dbea7570cfdce65d7e27b35506e)
++++ index.html	(date 1637676729854)
+@@ -13,39 +13,36 @@
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"></script>
+-    <div class="container-fluid">
++    <div class="container-fluid position-fixed" style="z-index: 2">
+         <div class="row">
+-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0">
++            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                 <div class="navbar-collapse d-flex justify-content-between"
+                      id="navbarSupportedContent">
+                     <div class="d-flex col-lg-6 col-10 py-3" style="margin-left: 3%">
+                         <div class="me-2">
+-                            <img id="logo" src="imgs/logo.png" alt="logo" style="width: 59px; height: 65px">
++                            <img id="logo" src="imgs/logo.png" alt="logo">
+                         </div>
+                         <div id="RTU" style="margin-left: 4%">
+-                            <span class="pr-k" style="text-transform: uppercase; font-weight: bold">
++                            <strong class="pr-k text-uppercase">
+                                 Приёмная комиссия
+-                            </span>
++                            </strong>
+                             <span class="xxs d-block">МИРЭА &mdash; Российский технологический университет</span>
+                         </div>
+                     </div>
+                     <div class="d-none d-lg-block">
+                         <ul class="navbar-nav">
+                             <li class="nav-item me-4">
+-                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black"
+-                                   style="text-decoration: none">
++                                <a href="https://priem.mirea.ru/lk" target="_blank" class="text-black text-decoration-none">
+                                     Личный кабинет
+                                 </a>
+                             </li>
+                             <li class="nav-item me-4">
+-                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black"
+-                                   style="text-decoration: none">
++                                <a href="https://priem.mirea.ru/contacts" target="_blank" class="text-black text-decoration-none">
+                                     Контакты
+                                 </a>
+                             </li>
+                             <li class="nav-item">
+-                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black"
+-                                   style="text-decoration: none">
++                                <a href="https://priem.mirea.ru/" target="_blank" class="text-black text-decoration-none">
+                                     На сайт Приёмной комиссии
+                                 </a>
+                             </li>
+@@ -80,7 +77,7 @@
+                                     </li>
+                                 </ul>
+                                 <footer style="background-color: lightgray" class="container-fluid pt-2">
+-                                    <ul style="list-style-type: none" class="mt-2 px-0">
++                                    <ul style="list-style-type: none" class="pt-2 px-0">
+                                         <li class="py-2">© 2021 Приёмная комиссия РТУ МИРЭА</li>
+                                         <li class="py-2">
+                                             <a class="text-black foot text-decoration-none" href="https://minobrnauki.gov.ru/" target="_blank">
+@@ -157,6 +154,7 @@
+             </nav>
+         </div>
+     </div>
++    <div class="pt-6r"></div>
+     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="d-none d-lg-block">
+         <div class="d-flex justify-content-between">
+             <ol class="breadcrumb m-0 py-xl-2" style="padding-left: 3rem">
+@@ -166,49 +164,49 @@
+                 <li class="breadcrumb-item active" aria-current="page">Многопрофильная олимпиада РТУ МИРЭА для учащихся
+                     9, 10 и 11 классов</li>
+             </ol>
+-            <div>
+-                <button style="height: 100%" class="border-0 button btn-info">
+-                    <a href="https://priem.mirea.ru/olympiads" target="_blank" style="color: #FFFFFF; text-decoration: none">
+-                        Вернуться в Гид по олимпиадам</a></button>
++            <div class="bg-info d-flex align-items-center text-center">
++                <a class="text-decoration-none px-2 text-white" href="https://priem.mirea.ru/olympiads" target="_blank">
++                    Вернуться в Гид по олимпиадам
++                </a>
+             </div>
+         </div>
+     </nav>
+-    <div class="container-fluid d-flex justify-content-center align-items-center" style="width: auto; height: 400px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/olimpiady_1.png); background-size: cover; background-position: center;">
+-        <strong class="fs-1 col-lg-7 col-sm-10 col-12 text-center" style="color: #FFFFFF; line-height: 100%;">
++    <div class="container-fluid d-flex justify-content-center align-items-center w-auto" style="height: 400px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/olimpiady_1.png); background-size: cover; background-position: center;">
++        <strong class="fs-1 col-lg-7 col-sm-10 col-12 text-center text-white" style="line-height: 100%;">
+             Многопрофильная олимпиада РТУ МИРЭА для учащихся 9, 10 и 11 классов
+         </strong>
+     </div>
+     <div class="container my-5">
+         <div class="row">
+             <div class="col-6 col-md-3 text-center">
+-                <img style="width: 100px; height: 100px" src="imgs/math.png" class="card-img-top" alt="Математика">
++                <img src="imgs/math.png" alt="Математика">
+                 <p class="mt-2 fs-5">Математика</p>
+             </div>
+             <div class="col-6 col-md-3 text-center">
+-                <img style="width: 100px; height: 100px" src="imgs/chem.png" class="card-img-top" alt="Химия">
++                <img src="imgs/chem.png" alt="Химия">
+                 <p class="mt-2 fs-5">Химия</p>
+             </div>
+             <div class="col-6 col-md-3 text-center">
+-                <img style="width: 100px; height: 100px" src="imgs/phis.png" class="card-img-top" alt="Физика">
++                <img src="imgs/phis.png" alt="Физика">
+                 <p class="mt-2 fs-5">Физика</p>
+             </div>
+             <div class="col-6 col-md-3 text-center">
+-                <img style="width: 100px; height: 100px" src="imgs/inf.png" class="card-img-top" alt="Информатика">
++                <img src="imgs/inf.png" alt="Информатика">
+                 <p class="mt-2 fs-5">Информатика</p>
+             </div>
+         </div>
+     </div>
+     <div class="text-center mb-5">
+-        <a style="padding: 1rem 2rem; font-size: 18pt; color: #FFFFFF; text-decoration: none"
+-           href="https://priem.mirea.ru/lk/olymp" target="_blank" class="btn-info text-center">
++        <a style="padding: 1rem 2rem" class="btn-info text-center text-decoration-none text-white fs-2"
++           href="https://priem.mirea.ru/lk/olymp" target="_blank">
+             Регистрация
+         </a>
+     </div>
+     <div>
+-        <h1 class="mb-5" style="text-transform: uppercase; text-align: center"><strong>Календарь олимпиад</strong></h1>
+-        <a class="accordion-button d-flex py-4 mb-1 collapsed pb" data-bs-toggle="collapse" data-bs-target="#zaoch"
++        <h1 class="pb-5 text-uppercase text-center fw-bold">Календарь олимпиад</h1>
++        <a class="accordion-button d-flex py-4 mb-1 collapsed pb text-decoration-none" data-bs-toggle="collapse" data-bs-target="#zaoch"
+            aria-expanded="true" aria-controls="collapseExample"  href="#"
+-           style="text-decoration: none; background-color: #FFCC00;">
++           style="background-color: #FFCC00;">
+             <div class="container-md">
+                 <strong class="fs-2 text-white">Заочный отборочный этап</strong>
+             </div>
+@@ -228,7 +226,7 @@
+                         </span>
+                     </li>
+                 </ul>
+-                <h5 style="text-align: center" class="mb-3"><strong>Таймлайн заочного отборочного этапа</strong></h5>
++                <h5 class="mb-3 text-center"><strong>Таймлайн заочного отборочного этапа</strong></h5>
+                 <table class="table">
+                     <thead>
+                         <tr>
+@@ -239,27 +237,27 @@
+                     <tbody>
+                         <tr>
+                             <td>Приём решений</td>
+-                            <td style="color: #FFCC00; font-weight: bold">До 31 января 2022</td>
++                            <td class="otb">До 31 января 2022</td>
+                         </tr>
+                         <tr>
+                             <td>Публикация результатов</td>
+-                            <td style="color: #FFCC00; font-weight: bold">До 15 февраля 2022</td>
++                            <td class="otb">До 15 февраля 2022</td>
+                         </tr>
+                         <tr>
+                             <td>Аппеляция результатов отборочного этапа (заочно)</td>
+-                            <td style="color: #FFCC00; font-weight: bold">До 17 февраля 2022</td>
++                            <td class="otb">До 17 февраля 2022</td>
+                         </tr>
+                         <tr>
+                             <td>Публикация на странице Олимпиады списков призёров и победителей</td>
+-                            <td style="color: #FFCC00; font-weight: bold">До 27 февраля 2022</td>
++                            <td class="otb">До 27 февраля 2022</td>
+                         </tr>
+                     </tbody>
+                 </table>
+             </div>
+         </div>
+-        <a class="accordion-button d-flex py-4 mb-5 collapsed pb" id="za" data-bs-toggle="collapse" data-bs-target="#zacl"
+-           aria-expanded="true" aria-controls="collapseExample" href="#"
+-           style="text-decoration: none; background-color: #40B8FC;">
++        <a class="accordion-button d-flex py-4 mb-5 collapsed pb text-decoration-none" id="za" data-bs-toggle="collapse"
++           data-bs-target="#zacl" aria-expanded="true" aria-controls="collapseExample" href="#"
++           style="background-color: #40B8FC;">
+             <div class="container-md">
+                 <strong class="fs-2 text-white">Заключительный этап</strong>
+             </div>
+@@ -281,7 +279,7 @@
+                         </ul>
+                     </li>
+                 </ul>
+-                <h5 style="text-align: center" class="mb-3"><strong>Таймлайн заключительного этапа</strong></h5>
++                <h5 class="pb-3 text-center"><strong>Таймлайн заключительного этапа</strong></h5>
+                 <table class="table">
+                     <thead>
+                     <tr>
+@@ -292,23 +290,23 @@
+                     <tbody>
+                     <tr>
+                         <td>Заключительный этап</td>
+-                        <td style="color: #40B8FC; font-weight: bold">27 марта 2022</td>
++                        <td class="zacl">27 марта 2022</td>
+                     </tr>
+                     <tr>
+                         <td>Публикация результатов</td>
+-                        <td style="color: #40B8FC; font-weight: bold">До 5 апреля 2022</td>
++                        <td class="zacl">До 5 апреля 2022</td>
+                     </tr>
+                     <tr>
+                         <td>Аппеляция результатов отборочного этапа (заочно)</td>
+-                        <td style="color: #40B8FC; font-weight: bold">До 7 апреля 2022</td>
++                        <td class="zacl">До 7 апреля 2022</td>
+                     </tr>
+                     <tr>
+                         <td>Публикация списков призёров и победителей заключительного этапа</td>
+-                        <td style="color: #40B8FC; font-weight: bold">До 15 апреля 2022</td>
++                        <td class="zacl">До 15 апреля 2022</td>
+                     </tr>
+                     <tr>
+                         <td>Торжественное награждение призёров и победителей</td>
+-                        <td style="color: #40B8FC; font-weight: bold">До 31 мая 2022</td>
++                        <td class="zacl">До 31 мая 2022</td>
+                     </tr>
+                     </tbody>
+                 </table>
+@@ -318,12 +316,12 @@
+     <div class="container-fluid mb-5">
+         <div class="row mb-2">
+             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #9B51E0">
+-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>Об Олимпиаде</strong></ins>
++                <ins class="text-uppercase text-center py-4 fs-1 text-white"><strong>Об Олимпиаде</strong></ins>
+             </div>
+             <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
+                 style="height: 200px; background: url(imgs/MaskGroup4.png); background-position: center">
+                 <a href="https://priem.mirea.ru/olymp-2022/?module=about" target="_blank"
+-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #9B51E0; color: white;">Узнать больше</a>
++                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #9B51E0">Узнать больше</a>
+             </div>
+             <div class="col-md-6 d-flex d-md-none justify-content-center align-items-center"
+                  style="height: 100px; background: url(imgs/MaskGroup4.png); background-position: center">
+@@ -352,7 +350,7 @@
+         </div>
+         <div class="row mb-2">
+             <div class="col-md-6 d-flex align-items-center justify-content-center" style="background-color: #FFCC00;">
+-                <ins class="text-uppercase text-center py-4 fs-1" style="color: white;"><strong>Результаты</strong></ins>
++                <ins class="text-uppercase text-center py-4 fs-1 text-white fw-bold">Результаты</ins>
+             </div>
+             <div class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
+                 style="height: 200px; background: url(imgs/MaskGroup6.png); background-position: center">
+@@ -364,7 +362,7 @@
+             <div class="col-md-6 d-md-none d-flex justify-content-center align-items-center"
+                  style="height: 100px; background: url(imgs/MaskGroup6.png); background-position: center">
+                 <a href="https://priem.mirea.ru/olymp-2022/?module=results" target="_blank"
+-                   class="fs-5 px-4 py-3 text-decoration-none" style="background-color: #FFCC00; color: white;">Узнать больше</a>
++                   class="fs-5 px-4 py-3 text-decoration-none text-white" style="background-color: #FFCC00">Узнать больше</a>
+             </div>
+         </div>
+     </div>
+Index: css/Main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.xxs {\r\n    font-size: 0.8rem!important;\r\n}\r\n.pr-k {\r\n    font-size: 0.8rem!important;\r\n}\r\n.pb {\r\n    padding-left: 0.5rem!important;\r\n    padding-right: 0.5rem!important;\r\n}\r\n\r\n@media (min-width: 350px) {\r\n    .xxs {\r\n        font-size: 0.9rem!important;\r\n    }\r\n    .pr-k {\r\n        font-size: 0.9rem!important;\r\n    }\r\n}\r\n\r\n@media (min-width: 576px) {\r\n    .xxs {\r\n        font-size: 1rem!important;\r\n    }\r\n    .pr-k {\r\n        font-size: 1.2rem!important;\r\n    }\r\n}\r\n\r\n@media (min-width: 768px) {\r\n    .pb {\r\n        padding-left: 3rem!important;\r\n        padding-right: 3rem!important;\r\n    }\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .pb {\r\n        padding-left: 5rem!important;\r\n        padding-right: 5rem!important;\r\n    }\r\n}\r\n\r\n.foot:hover{\r\n    text-decoration: underline!important;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/Main.css	(revision 469e61d141791dbea7570cfdce65d7e27b35506e)
++++ css/Main.css	(date 1637676729833)
+@@ -41,6 +41,20 @@
+     }
+ }
+ 
++.pt-6r{
++    padding-top: 6rem!important;
++}
++
+ .foot:hover{
+     text-decoration: underline!important;
+ }
++
++.otb{
++    color: #FFCC00!important;
++    font-weight: bold!important;
++}
++
++.zacl{
++    color: #40B8FC!important;
++    font-weight: bold!important;
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1zwUpwXZaUtjX9uruX5NoKHhPed\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\olimpiadsMIREA\\css\" />\r\n      <recent name=\"D:\\olimpiadsMIREA\" />\r\n      <recent name=\"D:\\olimpiadsMIREA\\imgs\" />\r\n      <recent name=\"D:\\olimpiadsMIREA\\HTML\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1635058829979</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1635058829979</updated>\r\n      <workItem from=\"1635058833802\" duration=\"26714000\" />\r\n      <workItem from=\"1635324475168\" duration=\"4064000\" />\r\n      <workItem from=\"1636480806363\" duration=\"12901000\" />\r\n      <workItem from=\"1636626634333\" duration=\"4399000\" />\r\n      <workItem from=\"1637164057939\" duration=\"4003000\" />\r\n      <workItem from=\"1637229928529\" duration=\"10084000\" />\r\n      <workItem from=\"1637524173693\" duration=\"4078000\" />\r\n      <workItem from=\"1637604883442\" duration=\"750000\" />\r\n      <workItem from=\"1637605928134\" duration=\"329000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Патч 0.2\">\r\n      <created>1635591706848</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1635591706848</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Патч 0.2\">\r\n      <created>1635599019775</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1635599019776</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Патч 0.3\">\r\n      <created>1636537056378</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636537056378</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Патч 0.3\">\r\n      <created>1636539387307</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636539387307</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Патч 0.4\">\r\n      <created>1636541170430</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636541170430</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Патч 0.7\">\r\n      <created>1636707354756</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636707354756</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Патч 0.9\">\r\n      <created>1637165927937</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637165927937</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Релиз\">\r\n      <created>1637339377824</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637339377824</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Патч 1.1\">\r\n      <created>1637527671841</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637527671841</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Патч 0.2\" />\r\n    <MESSAGE value=\"Патч 0.3\" />\r\n    <MESSAGE value=\"Патч 0.4\" />\r\n    <MESSAGE value=\"Патч 0.7\" />\r\n    <MESSAGE value=\"Патч 0.9\" />\r\n    <MESSAGE value=\"Релиз\" />\r\n    <MESSAGE value=\"Патч 1.1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Патч 1.1\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"518\" y=\"250\" key=\"#Web_Browsers\" timestamp=\"1637226824483\">\r\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"920\" />\r\n    </state>\r\n    <state x=\"518\" y=\"250\" key=\"#Web_Browsers/0.0.1440.920@0.0.1440.920\" timestamp=\"1637226824483\" />\r\n    <state x=\"313\" y=\"194\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1637527676855\">\r\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"920\" />\r\n    </state>\r\n    <state x=\"313\" y=\"194\" key=\"Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920\" timestamp=\"1637527676855\" />\r\n    <state x=\"538\" y=\"375\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1635852013614\">\r\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"920\" />\r\n    </state>\r\n    <state x=\"538\" y=\"375\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920\" timestamp=\"1635852013614\" />\r\n    <state x=\"377\" y=\"211\" key=\"run.anything.popup\" timestamp=\"1635152525517\">\r\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"920\" />\r\n    </state>\r\n    <state x=\"377\" y=\"211\" key=\"run.anything.popup/0.0.1440.920@0.0.1440.920\" timestamp=\"1635152525517\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 469e61d141791dbea7570cfdce65d7e27b35506e)
++++ .idea/workspace.xml	(date 1637770851666)
+@@ -21,6 +21,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Main.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -89,7 +90,10 @@
+       <workItem from="1637229928529" duration="10084000" />
+       <workItem from="1637524173693" duration="4078000" />
+       <workItem from="1637604883442" duration="750000" />
+-      <workItem from="1637605928134" duration="329000" />
++      <workItem from="1637605928134" duration="382000" />
++      <workItem from="1637672705893" duration="876000" />
++      <workItem from="1637675745846" duration="143000" />
++      <workItem from="1637675904955" duration="3146000" />
+     </task>
+     <task id="LOCAL-00001" summary="Патч 0.2">
+       <created>1635591706848</created>
+@@ -154,7 +158,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1637527671841</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Патч 1.2">
++      <created>1637606293323</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1637606293323</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -181,17 +192,18 @@
+     <MESSAGE value="Патч 0.9" />
+     <MESSAGE value="Релиз" />
+     <MESSAGE value="Патч 1.1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.1" />
++    <MESSAGE value="Патч 1.2" />
++    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.2" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="518" y="250" key="#Web_Browsers" timestamp="1637226824483">
+       <screen x="0" y="0" width="1440" height="920" />
+     </state>
+     <state x="518" y="250" key="#Web_Browsers/0.0.1440.920@0.0.1440.920" timestamp="1637226824483" />
+-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637527676855">
++    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1637606302347">
+       <screen x="0" y="0" width="1440" height="920" />
+     </state>
+-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637527676855" />
++    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1637606302347" />
+     <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635852013614">
+       <screen x="0" y="0" width="1440" height="920" />
+     </state>
