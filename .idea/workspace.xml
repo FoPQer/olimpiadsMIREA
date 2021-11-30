@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab8f6a43-6efe-4f66-ad10-7fdc8fcdb5c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_14_58__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_16_48__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Timeline.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635591706848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Патч 1.4">
+      <created>1638218694410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638218694410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,20 +119,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Патч 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Патч 0.2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1635591715447">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1635591715447" />
-    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635342575519">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="538" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1635342575519" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1635152525517">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1635152525517" />
+    <MESSAGE value="Патч 1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Патч 1.4" />
   </component>
 </project>
